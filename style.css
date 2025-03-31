@@ -192,6 +192,10 @@ ul > li::before {
 }
 
 @media (max-width: 736px) {
+  body {
+    padding: 0;
+  }
+
   .recipe,
   .header img {
     border-radius: 0;
