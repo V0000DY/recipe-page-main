@@ -16,12 +16,8 @@
   --fluid-0-40: clamp(0rem, -0.8803rem + 3.7559vw, 2.5rem);
   --fluid-14-16: clamp(0.875rem, 0.831rem + 0.1878vw, 1rem);
   --fluid-24-28: clamp(1.5rem, 1.412rem + 0.3756vw, 1.75rem);
-  --fluid-26-30: clamp(1.625rem, 1.537rem + 0.3756vw, 1.875rem);
-  --fluid-26-36: clamp(1.625rem, 1.4049rem + 0.939vw, 2.25rem);
   --fluid-32-5-40: clamp(2.0313rem, 1.8662rem + 0.7042vw, 2.5rem);
-  --fluid-36-38: clamp(2.25rem, 2.206rem + 0.1878vw, 2.375rem);
   --fluid-36-44: clamp(2.25rem, 2.0739rem + 0.7512vw, 2.75rem);
-  --fluid-310-656: clamp(19.375rem, 11.7606rem + 32.4883vw, 41rem);
 }
 
 body {
@@ -29,7 +25,7 @@ body {
   grid-template-rows: auto auto;
   place-items: center;
   margin: 0;
-  padding: 0;
+  padding: 7.625rem 0;
   background-color: var(--stone-100);
   font-family: var(--font-family-main);
   font-weight: var(--font-normal);
